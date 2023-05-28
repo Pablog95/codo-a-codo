@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+
+<body>
+    <div class="cuerpoRegistrarse">
+        <form class="formRegistrarse">
+            <label class="labelRegistrarse" for="nombre">Nombre y Apellido:</label>
+            <input class="inputRegistrarse" type="text" id="nombre" required>
+  
+            <label class="labelRegistrarse" for="dni">DNI:</label>
+            <input class="inputRegistrarse" type="text" id="dni" required>
+  
+            <label class="labelRegistrarse" for="email">Email:</label>
+            <input class="inputRegistrarse" type="email" id="email" required>
+  
+            <label class="labelRegistrarse" for="contrasena">Contraseña:</label>
+            <input class="inputRegistrarse" type="password" id="contrasena" required>
+  
+            <label class="labelRegistrarse" for="direccion">Dirección:</label>
+            <input class="inputRegistrarse" type="text" id="direccion" required>
+  
+            <label class="labelRegistrarse" for="pais">País:</label>
+            <select id="pais" required>
+                <option value="">Selecciona un país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+  
+            <button class="buttonRegistrarse" type="submit">Registrarse</button>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -5,16 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofertas</title>
+    <link rel="shortcut icon" href="/IMG/iconoPagina.png">
+    <link rel="stylesheet" href="/CSS/estilos.css">
 </head>
 <body>
     <header>
+        <div class="tituloPagina">
+            <a href="index.html">
+                <img src="IMG/iconoPagina.png" alt="">
+            </a>
+            <h1 style="display: inline-block;">CODO VIAJES</h1>
+        </div>
+
+        <div class="inicioRegistroSesion">
+            <a href="/inicioSesion.html">Iniciar sesión</a>
+            <a href="/registrarse.html">Registrarse</a>
+        </div>
+
+        <ul class="menuLista">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/destinos.html">Destinos</a></li>
+            <li><a href="/tiempo.html">Tiempo</a></li>
+            <li><a href="/ofertas.html">Ofertas</a></li>
+            <li><a href="reservar.html">Reservar</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
 
     </header>
     <main>
 
+        <div class="carrusel">
+            <div class="carruselMovimiento">
+              <img src="/IMG/ofertas1.jpg" alt="Imagen 1">
+              <img src="/IMG/ofertas2.jpg" alt="Imagen 2">
+              <img src="/IMG/ofertas3.jpg" alt="Imagen 3">
+            </div>
+        </div>
+        
+
+        <div class="separador"></div>
+
+        <div class="contenedorOfertas">
+            <p>¡Descubre nuestras increíbles ofertas y disfruta de viajes inolvidables!
+
+                En Codo Viajes, nos enorgullece ofrecerte las mejores ofertas del mercado. Nuestro objetivo es brindarte experiencias de viaje únicas a precios increíbles. Explora nuestros paquetes y descuentos especiales y prepárate para vivir aventuras emocionantes sin romper tu presupuesto.
+                
+                No te pierdas la oportunidad de viajar a destinos increíbles, hospedarte en los mejores alojamientos y disfrutar de actividades fascinantes, todo a precios irresistibles. Nuestras ofertas están diseñadas pensando en tu satisfacción y en hacer realidad tus sueños de viaje.
+                
+                Confía en nosotros para encontrar las mejores ofertas y disfrutar de experiencias de viaje inigualables. ¡Descubre nuestras ofertas hoy mismo y empieza a planificar tu próxima aventura con Codo Viajes!</p>
+            <p>Para ver nuestras ofertas seleccione alguna de nuestras opciones: </p>
+            <label for="tipoTarjeta">Seleccione un tipo de tarjeta:</label>
+            <select id="tipoTarjeta">
+              <option value="">Seleccione una opción</option>
+              <option value="tarjeta1">Visa Galicia</option>
+              <option value="tarjeta5">MasterCard Galicia</option>
+              <option value="tarjeta2">Visa HSBC</option>
+              <option value="tarjeta3">Visa Santander</option>
+              <option value="tarjeta4">MasterCard Santander</option>
+
+            </select>
+          </div>
+        </div>
+        <div id="tarjetaSeleccionada" class="tarjetaa">
+            <div class="tarjetaImagen tarjeta1">
+              <img lass="imagenesTarjetas"  src="IMG/visa.jfif" alt="Visa Galicia">
+              <p class="descuentoTarjeta">Descuento: 10%</p>
+              <p class="cuotasTarjeta">HASTA 6 Cuotas Sin Interes + 10% más</p>
+              <p class="puntosTarjeta">Suma Puntos Codo CLUB</p>
+            </div>
+            <div class="tarjetaImagen tarjeta2">
+              <img lass="imagenesTarjetas"  src="IMG/visa.jfif" alt="Visa HSBC">
+              <p class="descuentoTarjeta">Descuento: 15%</p>
+              <p class="cuotasTarjeta">HASTA 6 Cuotas Sin Interes</p>
+            </div>
+            <div class="tarjetaImagen tarjeta3">
+              <img lass="imagenesTarjetas"  src="IMG/visa.jfif" alt="Visa Santander">
+              <p class="descuentoTarjeta">Descuento: 20%</p>
+              <p class="cuotasTarjeta">HASTA 6 Cuotas Sin Interes</p>
+              <p class="puntosTarjeta">Suma Doble Puntos Codo CLUB</p>
+            </div>
+            <div class="tarjetaImagen tarjeta4">
+                <img class="imagenesTarjetas"  src="IMG/logoMastercard.png" alt="Visa Santander">
+                <p class="descuentoTarjeta">Descuento: 20%</p>
+                <p class="cuotasTarjeta">HASTA 6 Cuotas Sin Interes</p>
+                <p class="puntosTarjeta">Suma Doble Puntos Codo CLUB</p>
+            </div>
+            <div class="tarjetaImagen tarjeta5">
+                <img class="imagenesTarjetas" src="IMG/logoMastercard.png" alt="Visa Santander">
+                <p class="descuentoTarjeta">Descuento: 20%</p>
+                <p class="cuotasTarjeta">3 Cuotas Sin Interes</p>
+                <p class="puntosTarjeta">Suma Puntos Codo CLUB</p>
+            </div>
+        </div>
+
+        <div class="separador"></div>
+        <script src="JS/ofertas.js"></script>
     </main>
     <footer>
+        <div    class="barrafooter"></div>
 
-    </footer>
+        <a href="#" class="btnVolverArriba">↑</a>
+
+        <div class="redesSociales">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="img/insta.png" alt="icono de instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="img/fb.png" alt="icono de facebook">
+            </a>
+            <a href="https://wa.me/5491111111111">
+                <img src="img/wpp.png" alt="icono de whatsapp">
+            </a>
+        </div>
+
+        <div class="contenidoGeneral">
+            <h5>tel: 0800-000-000</h5>
+            <h5>Avenida elcano 123. 2° piso. depto 25</h5>
+            <h6><a href="politicasPrivacidad.html">Política de privacidad</a></h6>
+            <h6><a href="terminosYCondiciones.html">Términos y condiciones</a></h6>
+            <h6><a href="nosotros.html">Sugerencias</a></h6>
+            <p><strong>2023 Paginaweb.com. Todos los derechos reservados.</strong</p>
+        </div>
+    
+
+    </footer> 
 </body>
 </html>
